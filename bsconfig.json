@@ -1,0 +1,23 @@
+{
+    "name": "pss-fe",
+    "version": "0.0.1",
+    "sources": [
+      { "dir": "src", "subdirs": true}
+    ],
+    "package-specs": {
+      "module": "commonjs",
+      "in-source": true
+    },
+    "suffix": ".bs.js",
+    "reason": { "react-jsx": 3 },
+    "bs-dependencies": [
+      "@rescript/react",
+      "bs-fetch",
+      "@ryyppy/rescript-promise",
+      "rescript-webapi"
+  ],
+    "warnings": {
+      "error" : "+101"
+    }
+  }
+  

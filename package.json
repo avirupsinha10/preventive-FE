@@ -1,0 +1,50 @@
+{
+  "name": "pss-fe",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "rescript",
+    "clean": "rescript clean -with-deps",
+    "start": "node ./node_modules/webpack/bin/webpack.js serve --port 8085",
+    "re:start": "rescript build -w",
+    "re:build": "rescript build"
+  },
+  "keywords": [
+    "rescript"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "rescript": "^9.1.4",
+    "tailwindcss": "^3.2.4",
+    "webpack-dev-server": "^3.11.3"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.8.4",
+    "@reduxjs/toolkit": "^1.8.2",
+    "@rescript/react": "^0.10.3",
+    "@ryyppy/rescript-promise": "^2.1.0",
+    "autoprefixer": "^10.4.13",
+    "bs-fetch": "^0.6.2",
+    "css-loader": "^6.7.3",
+    "final-form": "^4.20.7",
+    "mini-css-extract-plugin": "^2.6.1",
+    "notistack": "^2.0.5",
+    "postcss": "^8.4.14",
+    "postcss-loader": "^7.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-final-form": "^6.5.9",
+    "react-redux": "^8.0.2",
+    "rescript": "^9.1.4",
+    "rescript-webapi": "^0.6.1",
+    "serve": "^13.0.2",
+    "tailwindcss": "^3.1.4",
+    "watch": "^1.0.2",
+    "webpack": "^5.72.0",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^3.11.3"
+  }
+}
